@@ -1,0 +1,42 @@
+body {
+	font: 400 1em/1.5 "Neuton";
+	background: #e9ecef;
+	color:#265a5c; text-align:center;
+	 margin: 0;
+}
+
+p {
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	display: inline-block;
+	border: 4px double #37474f;
+	border-width: 4px 0;
+	padding: 1.5em 0em;
+
+}
+
+h6 {
+	font: "Neuton"
+}
+
+.container-cards {
+	background-color:#f4f9f4;
+	border-radius:20px;
+	padding-top:20px
+}
+
+.page-link {
+	background-color:#36626a;
+	color: #f7f6e7;
+
+}
+
+.page-link:focus{
+	box-shadow: 0 0 0 0.2rem rgba(28,102,204, 0.5);
+
+
+}
+
+.icono{
+	padding: 10px;
+}
