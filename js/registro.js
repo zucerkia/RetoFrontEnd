@@ -9,7 +9,19 @@ var clientes =[];
 
 function añadirCliente(){
 
+  var clientes_reg = JSON.parse(localStorage.getItem('clientes'));
+
+  for (var i in clientes_reg) {
+
+    clientes[i]= clientes_reg[i];
+
+
+  }
+
+
+
   var elem_cliente={};
+
 
 
   elem_cliente.usuario= document.getElementById('inputUsuario').value;
