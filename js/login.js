@@ -13,8 +13,12 @@ function logear(){
 
   for (var i = 0; i < usuarios.length; i++) {
 
-    if(usuarios[i].correo ==email){
+    if(usuarios[i].correo ==email && usuarios[i].contraseña == password){
       console.log('entra');
+      break;
+    }
+    else{
+      console.log('correo o usuario invalidos');
     }
   }
 
